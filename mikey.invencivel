@@ -12,7 +12,7 @@ _G.themes = _G.themes or { -- themes
 }
 
 -- init
-local NAME = "TinyTask Hub CRACKED (juN on top lololo)"
+local NAME = "OTIMOS (±_±)"
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/juNstring/cracks/main/TinyTask%20Hub/ui.lua"))()
 local GUI = library.new(NAME)
 
@@ -33,7 +33,7 @@ local staterPlayerScriptsFolder = player.PlayerScripts.StarterPlayerScriptsFolde
 local REMOTE = RS.Remote
 local BINDABLE = RS.Bindable
 
-local MAX_SUMMON = 7
+local MAX_SUMMON = 10
 local MAX_EQUIPPED = 7
 local MAX_ROOM = 50
 local KILLING_METEOR = false
