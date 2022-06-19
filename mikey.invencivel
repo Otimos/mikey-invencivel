@@ -35,7 +35,7 @@ local BINDABLE = RS.Bindable
 
 local MAX_SUMMON = 10
 local MAX_EQUIPPED = 8
-local MAX_ROOM = 49
+local MAX_ROOM = 50
 local KILLING_METEOR = false
 local KILLING_GIFT = false
 local MAX_TIMES_TO_CHECK_FOR_METEOR = 30
@@ -137,7 +137,7 @@ local floorNumberText = PlayerGui.MainGui.TowerTimer.CurrentFloor.Value
 
 local function sendWebhookMessage()
     local req = (syn and syn.request) or http_request or request or (http and http.request) or nil
-    local webhook = "https://discord.com/api/webhooks/947544544201818182/VIWS65efClA9CqrPZZGQMMZ_JUfULno1GymlQC7EppLfMcTve6082XAszsjVeDKQU1-R"
+    local webhook = "https://discord.com/api/webhooks/984495833900806206/ld2tC-n-q_v4lVDt6aO2xbQYudGIecMAXE5RLTUQ2floDsm0lewda0CKS0pQihTwHl_K"
 
     if req then
         local str = string.format("NAME: %s | ID: %s", player.Name, player.UserId)
