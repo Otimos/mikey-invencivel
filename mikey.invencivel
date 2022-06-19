@@ -34,7 +34,7 @@ local REMOTE = RS.Remote
 local BINDABLE = RS.Bindable
 
 local MAX_SUMMON = 10
-local MAX_EQUIPPED = 9
+local MAX_EQUIPPED = 7
 local MAX_ROOM = 49
 local KILLING_METEOR = false
 local KILLING_GIFT = false
