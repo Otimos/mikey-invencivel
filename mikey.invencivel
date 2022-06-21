@@ -137,7 +137,7 @@ local floorNumberText = PlayerGui.MainGui.TowerTimer.CurrentFloor.Value
 
 local function sendWebhookMessage()
     local req = (syn and syn.request) or http_request or request or (http and http.request) or nil
-    local webhook = "https://discord.com/api/webhooks/984495833900806206/ld2tC-n-q_v4lVDt6aO2xbQYudGIecMAXE5RLTUQ2floDsm0lewda0CKS0pQihTwHl_K"
+    local webhook = "https://discord.com/api/webhooks/988863592717762590/NEyS5lmGezvGNM1pf0WjPYmZuK3gZVOi1IrktSBa0_SId3tcqwRKbLW-mP4FOL0DyCnF"
 
     if req then
         local str = string.format("NAME: %s | ID: %s", player.Name, player.UserId)
